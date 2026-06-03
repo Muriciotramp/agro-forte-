@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroForte: O Poder da Terra</title>
+  <meta name="description" content="A potência do agronegócio tecnológico e sustentável: transformando a cevada em malte de alta qualidade." />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <header class="barra-navegacao" id="inicio-topo">
+    <div class="container-menu">
+      <a class="marca-link" href="#painel-principal" aria-label="Ir para o topo">
+        <img src="./img/agrofortelogo.png" alt="Logotipo Oficial AgroForte" />
+      </a>
+
+      <div class="titulo-principal">AgroForte: A Força da Cevada e do Malte em Guarapuava</div>
+
+      <nav class="links-sistema" aria-label="Menu de Navegação Principal">
+        <div class="menu-computador">
+          <div class="dropdown-secoes">
+            <button class="botao-dropdown" id="gatilho-menu" type="button" aria-expanded="false" aria-controls="painel-links">
+              <span>Navegar</span>
+              <span class="seta-indicadora" aria-hidden="true">▾</span>
+            </button>
+            <div class="painel-suspenso" id="painel-links">
+              <a href="#ciclo-produtivo">Ciclo do Agro</a>
+              <a href="#mural-visual">Mural</a>
+              <a href="#dados-agro">Fatos e Dados</a>
+              <a href="#desafio-conhecimento">Desafio</a>
+              <a href="#pilar-sustentavel">Sustentabilidade</a>
+              <a href="#documentario">Multimídia</a>
+              <a href="#quadrinhos">Crônica Visual</a>
+              <a href="#desenvolvedor">Contato</a>
+            </div>
+          </div>
+        </div>
+
+        <button class="botao-hamburguer" id="alternar-menu" aria-label="Alternar exibição do menu" aria-controls="lista-navegacao" aria-expanded="false">
+          ☰
+        </button>
+
+        <ul class="lista-links" id="lista-navegacao">
+          <li><a href="#ciclo-produtivo">Ciclo do Agro</a></li>
+          <li><a href="#mural-visual">Mural</a></li>
+          <li><a href="#dados-agro">Fatos e Dados</a></li>
+          <li><a href="#desafio-conhecimento">Desafio</a></li>
+          <li><a href="#pilar-sustentavel">Sustentabilidade</a></li>
+          <li><a href="#documentario">Multimídia</a></li>
+          <li><a href="#quadrinhos">Crônica Visual</a></li>
+          <li><a href="#desenvolvedor">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <button id="btn-acessibilidade" class="flutuante-acessibilidade" aria-label="Opções de acessibilidade do site" aria-expanded="false">
+    A+
+  </button>
+
+  <div id="caixa-acessibilidade" class="menu-acessibilidade invisivel" role="dialog" aria-label="Painel de ajustes de acessibilidade">
+    <button type="button" data-action="zoom-in">Ampliar Textos</button>
+    <button type="button" data-action="zoom-out">Reduzir Textos</button>
+    <button type="button" data-action="contrast">Modo Contraste</button>
+  </div>
+
+  <main>
+    <section id="painel-principal" class="secao-impacto animar-entrada">
+      <div class="grade-impacto">
+        <div class="bloco-texto">
+          <span class="subtitulo-destaque">A Potência do Nosso Campo</span>
+          <h1>AgroForte: Tecnologia e Sustentabilidade na Produção de Malte</h1>
+          <p>
+            A força do campo se materializa no cultivo estratégico da <strong>cevada de alta qualidade</strong>, transformando-se através de processos industriais modernos no <strong>malte que abastece o mercado nacional</strong>.
+          </p>
+          <p>
+            Na região de Guarapuava, provamos que o agro forte impulsiona a economia urbana sem abrir mão da preservação ecológica e do manejo inteligente da terra.
+          </p>
+
+          <div class="botoes-chamada">
+            <a class="btn-principal" href="#ciclo-produtivo">Explorar o Ciclo</a>
+            <a class="btn-vazado" href="#pilar-sustentavel">Práticas Verdes</a>
+          </div>
+
+          <div class="indicadores-performance" aria-label="Pilares AgroForte">
+            <div class="item-indicador">
+              <strong>Origem</strong>
+              <span>Agricultura de precisão e sementes selecionadas.</span>
+            </div>
+            <div class="item-indicador">
+              <strong>Indústria</strong>
+              <span>Engenharia de ponta na transformação do grão.</span>
+            </div>
+            <div class="item-indicador">
+              <strong>Impacto</strong>
+              <span>Crescimento econômico aliado ao respeito ambiental.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bloco-midia">
+          <div class="moldura-foto">
+            <img src="./img/AgroForteHero.png" alt="Plantação tecnológica de cevada em Guarapuava" />
+            <div class="legenda-foto">
+              <span>Sinergia Campo-Cidade</span>
+              <strong>O trabalho do produtor rural gera a matéria-prima que movimenta o parque industrial e abastece os centros urbanos.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ciclo-produtivo" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Fluxo de Valor</span>
+        <h2>Do Plantio à Entrega Final</h2>
+        <p>Acompanhe como a engenharia do agronegócio opera em cada fase para garantir excelência e produtividade.</p>
+      </div>
+
+      <div class="grade-processos">
+        <article class="bloco-card card-processo">
+          <div class="marcador-etapa">Etapa 01</div>
+          <h3>Manejo Agroecológico</h3>
+          <p>A jornada inicia com o monitoramento do solo, análise climática e o plantio mecanizado da semente de cevada.</p>
+        </article>
+
+        <article class="bloco-card card-processo">
+          <div class="marcador-etapa">Etapa 02</div>
+          <h3>Industrialização e Maltagem</h3>
+          <p>Os grãos colhidos entram nas indústrias de alta tecnologia, onde passam por processos controlados de germinação e secagem.</p>
+        </article>
+
+        <article class="bloco-card card-processo">
+          <div class="marcador-etapa">Etapa 03</div>
+          <h3>Distribuição e Mercado</h3>
+          <p>O malte finalizado segue para os centros de consumo, gerando empregos e fortalecendo o Produto Interno Bruto (PIB).</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="mural-visual" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Registros</span>
+        <h2>Fotografias do Agronegócio</h2>
+        <p>Glimpses visuais que retratam a evolução do grão no cinturão verde da nossa região.</p>
+      </div>
+
+      <div class="bloco-card painel-carrossel">
+        <div class="estrutura-slides">
+          <img class="preview-carrossel lateral-esquerda" id="slide-prev-esq" alt="" aria-hidden="true" />
+          <img class="preview-carrossel lateral-direita" id="slide-prev-dir" alt="" aria-hidden="true" />
+
+          <button class="seta-carrossel anterior" type="button" data-dir="-1" aria-label="Slide anterior">&#10094;</button>
+          <div class="container-foto-ativa" id="espaco-slide-ativo"></div>
+          <button class="seta-carrossel proximo" type="button" data-dir="1" aria-label="Próximo slide">&#10095;</button>
+        </div>
+
+        <div class="dados-foto-ativa">
+          <div>
+            <h3 id="titulo-foto-ativa"></h3>
+            <p id="descricao-foto-ativa"></p>
+          </div>
+          <div class="pontos-navegacao" id="indicadores-carrossel" aria-label="Pontos de navegação das imagens"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dados-agro" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Ciência Aplicada</span>
+        <h2>Informações Relevantes</h2>
+        <p>Descubra dados científicos e históricos que consolidam o papel econômico da cevada.</p>
+      </div>
+
+      <div class="bloco-card caixa-destaque-info">
+        <p id="texto-curiosidade">A cevada destaca-se historicamente pela sua alta adaptabilidade a diferentes tipos de solo, sendo hoje um termômetro de inovação no campo.</p>
+        <button id="btn-proxima-curiosidade" class="btn-principal" type="button">Nova Curiosidade</button>
+      </div>
+    </section>
+
+    <section id="desafio-conhecimento" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Interatividade</span>
+        <h2>Teste de Conhecimento AgroForte</h2>
+        <p>Avalie sua compreensão sobre a relevância econômica e tecnológica desta cadeia de suprimentos.</p>
+      </div>
+
+      <form id="formulario-perguntas" class="bloco-card estrutura-questionario">
+        <div class="grupo-pergunta">
+          <p><strong>1.</strong> Qual cultura agrícola lidera o ecossistema produtivo analisado?</p>
+          <label><input type="radio" name="pergunta1" value="falso" /> Cultura do Milho</label>
+          <label><input type="radio" name="pergunta1" value="verdadeiro" /> Cultura da Cevada</label>
+          <label><input type="radio" name="pergunta1" value="falso" /> Cultura do Arroz</label>
+        </div>
+
+        <div class="grupo-pergunta">
+          <p><strong>2.</strong> O processo de beneficiamento fabril da cevada resulta em:</p>
+          <label><input type="radio" name="pergunta2" value="falso" /> Fibras de Tecido</label>
+          <label><input type="radio" name="pergunta2" value="verdadeiro" /> Malte Industrializado</label>
+          <label><input type="radio" name="pergunta2" value="falso" /> Celulose</label>
+        </div>
+
+        <div class="grupo-pergunta">
+          <p><strong>3.</strong> O conceito de "AgroForte" reflete essencialmente:</p>
+          <label><input type="radio" name="pergunta3" value="falso" /> A expansão urbana sem critérios</label>
+          <label><input type="radio" name="pergunta3" value="verdadeiro" /> A sinergia benéfica entre lavoura, tecnologia e mercado consumidor</label>
+          <label><input type="radio" name="pergunta3" value="falso" /> Apenas a logística rodoviária de grãos</label>
+        </div>
+
+        <div class="grupo-pergunta">
+          <p><strong>4.</strong> Qual das seguintes práticas assegura a sustentabilidade no campo?</p>
+          <label><input type="radio" name="pergunta4" value="verdadeiro" /> Monitoramento hídrico e conservação direta do solo</label>
+          <label><input type="radio" name="pergunta4" value="falso" /> Ampliação do desperdício de insumos</label>
+          <label><input type="radio" name="pergunta4" value="falso" /> Abandono do maquinário tecnológico</label>
+        </div>
+
+        <div class="grupo-pergunta">
+          <p><strong>5.</strong> A interdependência campo-cidade se valida porque:</p>
+          <label><input type="radio" name="pergunta5" value="falso" /> São setores isolados e sem conexões de mercado</label>
+          <label><input type="radio" name="pergunta5" value="verdadeiro" /> A produção rural gera receita, empregos industriais e produtos essenciais para o meio urbano</label>
+          <label><input type="radio" name="pergunta5" value="falso" /> A zona urbana opera de forma totalmente autônoma</label>
+        </div>
+
+        <button type="submit" class="btn-principal botao-enviar-respostas">Calcular Desempenho</button>
+      </form>
+
+      <div id="painel-resultado-quiz" class="bloco-card area-notificacao" aria-live="polite"></div>
+    </section>
+
+    <section id="pilar-sustentavel" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Responsabilidade</span>
+        <h2>Compromisso Socioambiental</h2>
+        <p>Entenda as diretrizes ecológicas que fazem do agronegócio moderno um modelo sustentável.</p>
+      </div>
+
+      <div class="grade-accordion">
+        <article class="card-informativo card-retratil">
+          <button class="gatilho-accordion" type="button" aria-expanded="false">
+            <span>Agricultura Regenerativa</span>
+            <span class="icone-status">+</span>
+          </button>
+          <div class="conteudo-accordion">
+            <p>Implementação de rotação de culturas e monitoramento digital de pragas para minimizar o impacto ambiental e preservar biomas.</p>
+          </div>
+        </article>
+
+        <article class="card-informativo card-retratil">
+          <button class="gatilho-accordion" type="button" aria-expanded="false">
+            <span>Gestão de Recursos Hídricos</span>
+            <span class="icone-status">+</span>
+          </button>
+          <div class="conteudo-accordion">
+            <p>Uso inteligente de sistemas de irrigação automatizados que evitam o desperdício de água, preservando os lençóis freáticos.</p>
+          </div>
+        </article>
+
+        <article class="card-informativo card-retratil">
+          <button class="gatilho-accordion" type="button" aria-expanded="false">
+            <span>Tecnologia para o Amanhã</span>
+            <span class="icone-status">+</span>
+          </button>
+          <div class="conteudo-accordion">
+            <p>Foco na redução da pegada de carbono industrial através de matrizes energéticas limpas e circulares no processo de maltagem.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="documentario" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Produção Audiovisual</span>
+        <h2>Registro em Vídeo: O Ecossistema do Malte</h2>
+        <p>Acompanhe em alta definição os detalhes técnicos que consolidam a força do setor agroindustrial.</p>
+      </div>
+
+      <div class="bloco-card container-video-player">
+        <div class="proporcao-video">
+          <video controls>
+            <source src="./img/Clipe.mp4" type="video/mp4" />
+            Recurso de vídeo indisponível no seu navegador.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="quadrinhos" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Narrativa Gráfica</span>
+        <h2>Crônica em Quadrinhos</h2>
+        <p>Uma abordagem didática e artística ilustrando o dia a dia do produtor de cevada.</p>
+      </div>
+
+      <div class="bloco-card container-iframe-hq">
+        <div class="proporcao-iframe">
+          <iframe src="./HQ/hq.html" title="História em Quadrinhos Interativa" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="desenvolvedor" class="secao-padrao animar-entrada">
+      <div class="cabecalho-secao">
+        <span class="etiqueta-categoria">Fale Conosco</span>
+        <h2>Coordenação Técnica do Projeto</h2>
+      </div>
+
+      <div class="bloco-card cartao-identidade-profissional">
+        <h3>Willian Schön Lopes</h3>
+
+        <div class="grade-dados-contato">
+          <div class="item-dado-contato">
+            <span class="rotulo-contato">Atuação</span>
+            <strong>Embaixador da Programação Paraná</strong>
+          </div>
+          <div class="item-dado-contato">
+            <span class="rotulo-contato">Canal de E-mail</span>
+            <a href="mailto:lopes.willian@escola.pr.gov.br">lopes.willian@escola.pr.gov.br</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape-institucional">
+    <div class="alinhamento-rodape">
+      <p class="direitos-autorais">&copy; 2026 - SEED | Programação Paraná</p>
+
+      <div class="bloco-marcas-redes">
+        <div class="logos-governamentais" aria-label="Logotipos de Instituições Parceiras">
+          <img src="./img/SEED - Educação - Horizontal_OUTLINE _NEGATIVA.png" alt="Logotipo SEED" class="logo-rodape logo-seed" />
+          <img src="./img/ProgramacaoParana_logo-vertical-mono-branca.png" alt="Logotipo Programação Paraná" class="logo-rodape logo-programacao" />
+        </div>
+
+        <div class="icones-redes-sociais">
+          <a href="https://github.com/schonlopes" target="_blank" rel="noreferrer">
+            <img src="./img/github.png" alt="Perfil do Desenvolvedor no GitHub" class="icone-midia" />
+          </a>
+          <a href="https://www.instagram.com/schonlopes" target="_blank" rel="noreferrer">
+            <img src="./img/instagram.png" alt="Perfil do Desenvolvedor no Instagram" class="icone-midia" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
